@@ -23,5 +23,5 @@ header{
     background-color: #41c7c7;
 
     display: grid;
-    grid-template-columns: 20% auto;
+    grid-template-columns: fit-content(20%) auto;
 }
