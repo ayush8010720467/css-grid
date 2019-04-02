@@ -17,13 +17,13 @@
         text-align: center;
         font-weight: bold;
         display: inline-block;
-        grid-column-start: one;
-        grid-column-end: span two;
+        grid-column-start: logo-start;
+        grid-column-end: span nav-end;
     }
 
 header{
     background-color: #41c7c7;
 
     display: grid;
-    grid-template-columns: fit-content(20%)[one] auto[two];
+    grid-template-columns: [logo-start] fit-content(20%) [nav-start] auto [nav-end];
 }
