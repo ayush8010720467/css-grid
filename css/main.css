@@ -3,6 +3,8 @@
     body{
         margin: 0%;
         font-family: 'Montserrat', sans-serif;
+        display: grid;
+        grid-template-rows: 51px,30%;
     }
     a { text-decoration: none;}
     ul { list-style-type: none ; float: right}
@@ -17,8 +19,6 @@
         text-align: center;
         font-weight: bold;
         display: inline-block;
-        grid-column-start: logo-start;
-        grid-column-end: span nav-end;
     }
 
 header{
@@ -26,4 +26,29 @@ header{
 
     display: grid;
     grid-template-columns: [logo-start] fit-content(20%) [nav-start] auto [nav-end];
+}
+/* #view{
+    object-fit: cover;
+    width: 950px;
+    height: 550px;
+} */
+section#hero{
+ background-color: #36adad ; 
+ padding: 2em ;
+ border-top: 5px solid #2ea0a0 ; 
+
+ display: grid ;
+ grid-template-columns: repeat(2,auto) ;
+}
+#content h1{
+    text-transform: uppercase;
+    color: #fffbc5
+}
+#content p{
+    color: #fff;
+}
+img{
+    max-width: 100%;
+    background-size: cover;
+    margin: 0 auto;
 }
