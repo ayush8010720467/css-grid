@@ -52,3 +52,9 @@ img{
     background-size: cover;
     margin: 0 auto;
 }
+#view{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+}
